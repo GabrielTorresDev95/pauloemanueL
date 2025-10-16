@@ -168,7 +168,7 @@ export default function Home() {
             Eles Ousaram. Eles Conquistaram.
           </h2>
 
-          <div className="space-y-6">
+        <div className="space-y-6">
             <Card className="p-6 bg-card border-accent/30">
               <p className="text-foreground/90 leading-relaxed mb-4 italic">
                 "Tentei tudo. Nada funcionou até encontrar Paulo e Manuel. O ritual de dominação mudou minha vida."
@@ -194,7 +194,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Mestres (sem imagens) */}
+      {/* Mestres (somente nome e texto, SEM CARDS) */}
       <section className="container mx-auto px-6 py-20">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center text-foreground">Os Mestres das Trevas</h2>
@@ -202,49 +202,47 @@ export default function Home() {
             Canalizadores das energias demoníacas de Asmodeus
           </p>
 
-          <div className="grid md:grid-cols-2 gap-12">
-            <Card className="p-8 bg-card border-accent/30 hover:border-accent transition-all">
-              <div className="space-y-4">
-                <div className="flex items-center gap-3">
-                  <Eye className="w-10 h-10 text-accent pulse-glow" />
-                  <h3 className="text-3xl font-bold text-foreground">Paulo</h3>
-                </div>
-                <p className="text-xl text-accent italic font-bold">Sacerdote e Oraculista</p>
-                <p className="text-foreground/90 leading-relaxed">
-                  Iniciado aos 16 anos nos mistérios ocultos, Paulo carrega o dom ancestral da vidência e domínio sobre
-                  oráculos proibidos. Mestre em leitura de sigilos e abertura de caminhos.
-                </p>
-                <ul className="list-disc list-inside space-y-1 text-sm">
-                  <li>Consultas oraculares com cartas infernais</li>
-                  <li>Sigilos de sangue para invocação de daemons</li>
-                  <li>Rituais de visão além do véu</li>
-                  <li>Canalização de energias demoníacas</li>
-                </ul>
+          <div className="space-y-14">
+            {/* Paulo */}
+            <div>
+              <div className="flex items-center gap-3 mb-2">
+                <Eye className="w-10 h-10 text-accent pulse-glow" />
+                <h3 className="text-3xl font-bold text-foreground">Paulo</h3>
               </div>
-            </Card>
+              <p className="text-xl text-accent italic font-bold mb-3">Sacerdote e Oraculista</p>
+              <p className="text-foreground/90 leading-relaxed mb-3">
+                Iniciado aos 16 anos nos mistérios ocultos, Paulo carrega o dom ancestral da vidência e domínio sobre
+                oráculos proibidos. Mestre em leitura de sigilos e abertura de caminhos.
+              </p>
+              <ul className="list-disc list-inside space-y-1 text-sm text-foreground/90">
+                <li>Consultas oraculares com cartas infernais</li>
+                <li>Sigilos de sangue para invocação de daemons</li>
+                <li>Rituais de visão além do véu</li>
+                <li>Canalização de energias demoníacas</li>
+              </ul>
+            </div>
 
-            <Card className="p-8 bg-card border-accent/30 hover:border-accent transition-all">
-              <div className="space-y-4">
-                <div className="flex items-center gap-3">
-                  <Flame className="w-10 h-10 text-accent pulse-glow" />
-                  <h3 className="text-3xl font-bold text-foreground">Manuel</h3>
-                </div>
-                <p className="text-xl text-accent italic font-bold">Sacerdote Bruxo de Asmodeus</p>
-                <p className="text-foreground/90 leading-relaxed">
-                  Bruxo escorpiano iniciado nos cultos infernais, executa rituais intensos e definitivos com poder
-                  absoluto e foco em resultados.
-                </p>
-                <ul className="list-disc list-inside space-y-1 text-sm">
-                  <li>Pactos de sangue com daemons</li>
-                  <li>Rituais de dominação e amarração</li>
-                  <li>Proteção com escudo infernal</li>
-                  <li>Destruição de inimigos espirituais</li>
-                </ul>
+            {/* Manuel */}
+            <div>
+              <div className="flex items-center gap-3 mb-2">
+                <Flame className="w-10 h-10 text-accent pulse-glow" />
+                <h3 className="text-3xl font-bold text-foreground">Manuel</h3>
               </div>
-            </Card>
+              <p className="text-xl text-accent italic font-bold mb-3">Sacerdote Bruxo de Asmodeus</p>
+              <p className="text-foreground/90 leading-relaxed mb-3">
+                Bruxo escorpiano iniciado nos cultos infernais, executa rituais intensos e definitivos com poder
+                absoluto e foco em resultados.
+              </p>
+              <ul className="list-disc list-inside space-y-1 text-sm text-foreground/90">
+                <li>Pactos de sangue com daemons</li>
+                <li>Rituais de dominação e amarração</li>
+                <li>Proteção com escudo infernal</li>
+                <li>Destruição de inimigos espirituais</li>
+              </ul>
+            </div>
           </div>
 
-          <Card className="mt-12 p-8 bg-gradient-to-br from-accent/10 to-background border-accent/50">
+          <div className="mt-12 p-8 bg-gradient-to-br from-accent/10 to-background border border-accent/50 rounded-xl">
             <div className="text-center space-y-4">
               <div className="flex items-center justify-center gap-4 mb-4">
                 <Skull className="w-12 h-12 text-accent pulse-glow" />
@@ -253,14 +251,13 @@ export default function Home() {
               </div>
               <p className="text-lg text-foreground/90 leading-relaxed max-w-3xl mx-auto">
                 Quando Paulo e Manuel trabalham juntos, as energias se multiplicam: visão estratégica + execução
-                implacável.
-                <span className="text-accent font-bold"> Juntos, comandam forças que nenhum obstáculo resiste.</span>
+                implacável.<span className="text-accent font-bold"> Juntos, comandam forças que nenhum obstáculo resiste.</span>
               </p>
               <p className="text-sm text-muted-foreground italic">
                 "Dois sacerdotes, um propósito: manifestar o poder dos daemons de Asmodeus no mundo material"
               </p>
             </div>
-          </Card>
+          </div>
         </div>
       </section>
 
