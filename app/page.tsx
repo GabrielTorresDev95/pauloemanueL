@@ -67,6 +67,7 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Métricas */}
       <section className="container mx-auto px-6 py-16 border-y border-accent/30 bg-accent/5">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8 text-center">
@@ -86,7 +87,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Services Section */}
+      {/* Rituais */}
       <section className="container mx-auto px-6 py-20">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
@@ -118,7 +119,7 @@ export default function Home() {
               </h4>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Revelação através dos oráculos demoníacos de Asmodeus. Canalizamos energias dos daemons para revelar o
-                oculto, descobrir traições, encontre caminhos que outros não enxergam.{" "}
+                oculto, descobrir traições e abrir caminhos.{" "}
                 <span className="text-accent font-bold">A verdade nua e crua.</span>
               </p>
               <div className="flex items-center gap-2 text-sm text-accent">
@@ -133,8 +134,7 @@ export default function Home() {
                 Ritual de Dominação
               </h4>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Controle situações, pessoas e energias através do poder dos daemons. Trabalho especializado com forças
-                infernais para conquista, amarração e domínio absoluto.{" "}
+                Controle situações, pessoas e energias através do poder dos daemons.{" "}
                 <span className="text-accent font-bold">Sem piedade, sem falhas.</span>
               </p>
               <div className="flex items-center gap-2 text-sm text-accent">
@@ -149,8 +149,7 @@ export default function Home() {
                 Proteção das Trevas
               </h4>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Escudo impenetrável criado com energias demoníacas contra ataques espirituais, inveja e magia negra. Os
-                daemons de Asmodeus protegem os seus.{" "}
+                Escudo impenetrável criado com energias demoníacas contra ataques espirituais, inveja e magia negra.{" "}
                 <span className="text-accent font-bold">Ninguém toca quem é nosso.</span>
               </p>
               <div className="flex items-center gap-2 text-sm text-accent">
@@ -162,6 +161,7 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Depoimentos */}
       <section className="container mx-auto px-6 py-20 bg-accent/5">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-foreground">
@@ -171,24 +171,22 @@ export default function Home() {
           <div className="space-y-6">
             <Card className="p-6 bg-card border-accent/30">
               <p className="text-foreground/90 leading-relaxed mb-4 italic">
-                "Tentei tudo. TUDO. Nada funcionou até encontrar Paulo e Manuel. O ritual de dominação mudou minha vida
-                em 5 dias. Hoje tenho o que sempre quis. Vale cada centavo."
+                "Tentei tudo. Nada funcionou até encontrar Paulo e Manuel. O ritual de dominação mudou minha vida."
               </p>
               <p className="text-sm text-accent font-bold">— M.S., São Paulo</p>
             </Card>
 
             <Card className="p-6 bg-card border-accent/30">
               <p className="text-foreground/90 leading-relaxed mb-4 italic">
-                "Estava sendo atacado espiritualmente há meses. Ninguém conseguia resolver. A proteção de Asmodeus foi
-                instantânea. Senti a diferença na mesma noite."
+                "Estava sendo atacado espiritualmente. A proteção de Asmodeus foi instantânea. Senti a diferença na
+                mesma noite."
               </p>
               <p className="text-sm text-accent font-bold">— R.L., Rio de Janeiro</p>
             </Card>
 
             <Card className="p-6 bg-card border-accent/30">
               <p className="text-foreground/90 leading-relaxed mb-4 italic">
-                "O pacto de sangue é real. Não é brincadeira. Se você está lendo isso e tem dúvidas, pare de perder
-                tempo. Eles entregam o que prometem."
+                "O pacto de sangue é real. Se você duvida, pare de perder tempo. Eles entregam o que prometem."
               </p>
               <p className="text-sm text-accent font-bold">— A.C., Minas Gerais</p>
             </Card>
@@ -196,7 +194,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Masters Section */}
+      {/* Mestres (sem imagens) */}
       <section className="container mx-auto px-6 py-20">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center text-foreground">Os Mestres das Trevas</h2>
@@ -206,92 +204,42 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 gap-12">
             <Card className="p-8 bg-card border-accent/30 hover:border-accent transition-all">
-              <div className="mb-6 overflow-hidden rounded-lg border-2 border-accent/50">
-           <img
-  src="/paulomago.jpeg"
-  alt="Paulo - Oraculista e Magista"
-  className="w-full h-80 object-cover"
-/>
-
-              </div>
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <Eye className="w-10 h-10 text-accent pulse-glow" />
                   <h3 className="text-3xl font-bold text-foreground">Paulo</h3>
                 </div>
                 <p className="text-xl text-accent italic font-bold">Sacerdote e Oraculista</p>
-
-                <div className="space-y-3 text-foreground/90 leading-relaxed">
-                  <p className="font-bold text-accent">O Vidente das Trevas</p>
-                  <p>
-                    Iniciado aos 16 anos nos mistérios ocultos, Paulo carrega o dom ancestral da vidência. Sua conexão
-                    com Asmodeus foi selada através de um pacto de sangue durante a lua negra de 2008, quando as portas
-                    do inferno se abriram e os daemons responderam ao seu chamado.
-                  </p>
-                  <p>
-                    Mestre em leitura de oráculos proibidos, sigilos de manifestação e rituais de abertura de caminhos
-                    através de energias demoníacas. Seus trabalhos revelam verdades que destroem ilusões e abrem portais
-                    para o impossível. Especialista em:
-                  </p>
-                  <ul className="list-disc list-inside space-y-1 text-sm">
-                    <li>Consultas oraculares com cartas infernais</li>
-                    <li>Sigilos de sangue para invocação de daemons</li>
-                    <li>Rituais de visão além do véu</li>
-                    <li>Canalização de energias demoníacas</li>
-                    <li>Abertura de portais para forças infernais</li>
-                  </ul>
-                </div>
-
-                <div className="pt-4 border-t border-accent/30">
-                  <p className="text-sm text-muted-foreground">
-                    <span className="text-accent font-bold">15+ anos</span> canalizando as energias demoníacas de
-                    Asmodeus
-                  </p>
-                </div>
+                <p className="text-foreground/90 leading-relaxed">
+                  Iniciado aos 16 anos nos mistérios ocultos, Paulo carrega o dom ancestral da vidência e domínio sobre
+                  oráculos proibidos. Mestre em leitura de sigilos e abertura de caminhos.
+                </p>
+                <ul className="list-disc list-inside space-y-1 text-sm">
+                  <li>Consultas oraculares com cartas infernais</li>
+                  <li>Sigilos de sangue para invocação de daemons</li>
+                  <li>Rituais de visão além do véu</li>
+                  <li>Canalização de energias demoníacas</li>
+                </ul>
               </div>
             </Card>
 
             <Card className="p-8 bg-card border-accent/30 hover:border-accent transition-all">
-              <div className="mb-6 overflow-hidden rounded-lg border-2 border-accent/50">
-                <img
-                  src="/dark-powerful-sorcerer-warlock-with-intense-mystic.jpg"
-                  alt="Manuel - Bruxo de Asmodeus"
-                  className="w-full h-80 object-cover"
-                />
-              </div>
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <Flame className="w-10 h-10 text-accent pulse-glow" />
                   <h3 className="text-3xl font-bold text-foreground">Manuel</h3>
                 </div>
                 <p className="text-xl text-accent italic font-bold">Sacerdote Bruxo de Asmodeus</p>
-
-                <div className="space-y-3 text-foreground/90 leading-relaxed">
-                  <p className="font-bold text-accent">O Executor das Trevas</p>
-                  <p>
-                    Nascido sob o signo de Escorpião durante um eclipse total, Manuel foi marcado pelos daemons desde o
-                    berço. Sua iniciação nos cultos de Asmodeus aconteceu aos 18 anos, em um ritual de três noites que
-                    quase lhe custou a vida - mas lhe deu acesso direto às energias infernais.
-                  </p>
-                  <p>
-                    Bruxo sem piedade, seus rituais são intensos, definitivos e irreversíveis. Canaliza o poder bruto
-                    dos daemons de Asmodeus sem filtros ou medos. Quando outros falham, Manuel invoca as forças que
-                    garantem resultados. Especialista em:
-                  </p>
-                  <ul className="list-disc list-inside space-y-1 text-sm">
-                    <li>Pactos de sangue com daemons definitivos</li>
-                    <li>Rituais de dominação com energias infernais</li>
-                    <li>Amarrações através de forças demoníacas</li>
-                    <li>Proteção absoluta com escudo de daemons</li>
-                    <li>Destruição de inimigos com energias das trevas</li>
-                  </ul>
-                </div>
-
-                <div className="pt-4 border-t border-accent/30">
-                  <p className="text-sm text-muted-foreground">
-                    <span className="text-accent font-bold">12+ anos</span> executando rituais com daemons de Asmodeus
-                  </p>
-                </div>
+                <p className="text-foreground/90 leading-relaxed">
+                  Bruxo escorpiano iniciado nos cultos infernais, executa rituais intensos e definitivos com poder
+                  absoluto e foco em resultados.
+                </p>
+                <ul className="list-disc list-inside space-y-1 text-sm">
+                  <li>Pactos de sangue com daemons</li>
+                  <li>Rituais de dominação e amarração</li>
+                  <li>Proteção com escudo infernal</li>
+                  <li>Destruição de inimigos espirituais</li>
+                </ul>
               </div>
             </Card>
           </div>
@@ -304,12 +252,9 @@ export default function Home() {
                 <Skull className="w-12 h-12 text-accent pulse-glow" />
               </div>
               <p className="text-lg text-foreground/90 leading-relaxed max-w-3xl mx-auto">
-                Quando Paulo e Manuel trabalham juntos, as energias demoníacas se multiplicam. A visão oculta de Paulo
-                combinada com o poder bruto de Manuel cria um canal direto com os daemons mais poderosos de Asmodeus.
-                <span className="text-accent font-bold">
-                  {" "}
-                  Juntos, eles comandam forças que nenhum obstáculo resiste.
-                </span>
+                Quando Paulo e Manuel trabalham juntos, as energias se multiplicam: visão estratégica + execução
+                implacável.
+                <span className="text-accent font-bold"> Juntos, comandam forças que nenhum obstáculo resiste.</span>
               </p>
               <p className="text-sm text-muted-foreground italic">
                 "Dois sacerdotes, um propósito: manifestar o poder dos daemons de Asmodeus no mundo material"
@@ -319,13 +264,14 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Chamada final */}
       <section className="container mx-auto px-6 py-20 border-y border-accent/30 bg-gradient-to-b from-accent/5 to-background">
         <div className="max-w-3xl mx-auto text-center">
           <Skull className="w-16 h-16 text-accent mx-auto mb-6 pulse-glow" />
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">Você Está Pronto?</h2>
           <p className="text-xl text-foreground/90 mb-8 leading-relaxed">
-            Não aceitamos curiosos. Não trabalhamos com indecisos.
-            <span className="text-accent font-bold"> Se você chegou até aqui, o chamado já foi feito.</span>
+            Não aceitamos curiosos.{" "}
+            <span className="text-accent font-bold">Se você chegou até aqui, o chamado já foi feito.</span>
           </p>
           <p className="text-lg text-muted-foreground mb-12">
             Apenas 3 vagas disponíveis esta semana. Depois disso, a porta se fecha por tempo indeterminado.
@@ -344,7 +290,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Contact Section */}
+      {/* Contato */}
       <section className="container mx-auto px-6 py-20">
         <div className="max-w-2xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">Contato Direto</h2>
